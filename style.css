@@ -16,13 +16,13 @@ a {
 }
 
 div.dark a {
-    color: #e8e8c8;
-    border-bottom: 4px dotted #e8e8c8;
+    color: #e8e8d8;
+    border-bottom: 4px dotted #e8e8d8;
 }
 
 body {
     margin: 0px;
-    background-color: #e8e8c8;
+    background-color: #e8e8d8;
 }
 
 div.box0 {
@@ -83,8 +83,8 @@ div.subtopic {
 
 div.dark {
     background-color: #382830;
-    border-top: 24px double #e8e8c8;
-    border-bottom: 24px double #e8e8c8;
+    border-top: 24px double #e8e8d8;
+    border-bottom: 24px double #e8e8d8;
     opacity: 0.94;
 }
 
@@ -93,18 +93,18 @@ div.dark a {
 }
 
 div.dark div.text {
-    color: #e8e8c8;
+    color: #e8e8d8;
 }
 
 div.dark div.title {
-    color: #e8e8c8;
+    color: #e8e8d8;
 }
 
 div.dark div.topic {
-    color: #e8e8c8;
+    color: #e8e8d8;
 }
 
 div.dark div.subtopic {
-    color: #e8e8c8;
+    color: #e8e8d8;
 }
 

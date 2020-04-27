@@ -9,14 +9,14 @@ animate();
 function init() {
     container = document.getElementById("container");
     scene = new THREE.Scene();
-    scene.fog = new THREE.Fog(0xe8e8c8, 2000, 10000);
+    scene.fog = new THREE.Fog(0xe8e8d8, 2000, 10000);
     camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
     renderer.setClearColor(scene.fog.color);
     container.appendChild(renderer.domElement);
     var geometry = new THREE.TorusKnotGeometry(10, 3, 128, 32, 2, 3, 1);
-    var material = new THREE.MeshBasicMaterial({color: 0x686848, wireframe: true, transparent: true, opacity: 0.1});
+    var material = new THREE.MeshBasicMaterial({color: 0x686858, wireframe: true, transparent: true, opacity: 0.1});
     wfobject = new THREE.Mesh(geometry, material);
     scene.add(wfobject);
     camera.position.z = 5;
