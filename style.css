@@ -26,7 +26,7 @@ body {
 }
 
 div.box0 {
-    padding: 4% 8% 4% 8%;
+    padding: 4% 12% 4% 12%;
 }
 
 div.box1 {
@@ -39,6 +39,10 @@ div.box2 {
 
 div.box3 {
     padding: 1% 0% 1% 0%;
+}
+
+div.center {
+    text-align: center;
 }
 
 div.row {
@@ -81,6 +85,7 @@ div.dark {
     background-color: #382830;
     border-top: 24px double #e8e8c8;
     border-bottom: 24px double #e8e8c8;
+    opacity: 0.94;
 }
 
 div.dark a {
