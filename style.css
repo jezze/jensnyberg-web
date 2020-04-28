@@ -15,11 +15,6 @@ a {
     border-bottom: 4px dotted #382830;
 }
 
-div.dark a {
-    color: #e8e8d8;
-    border-bottom: 4px dotted #e8e8d8;
-}
-
 body {
     margin: 0px;
     background-color: #e8e8d8;
@@ -79,7 +74,8 @@ div.dark {
 }
 
 div.dark a {
-    padding: 0px;
+    color: #e8e8d8;
+    border-bottom: 4px dotted #e8e8d8;
 }
 
 div.dark div.text {
