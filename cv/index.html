@@ -12,7 +12,6 @@
 body {
     background-image: url('background.png');
     background-color: #e0d6d0;
-    padding: 4% 12% 4% 12%;
     margin: 0;
 }
 
@@ -22,13 +21,11 @@ a {
 }
 
 .page {
-    background-color: #e6dcd6;
-    border-radius: 0%;
     display: flex;
     padding: 4%;
 }
 
-.left {
+.side {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -39,7 +36,7 @@ a {
     width: 2px;
 }
 
-.right {
+.main {
     display: flex;
     flex: 3;
     flex-direction: column;
@@ -59,30 +56,35 @@ a {
     font-size: 6em;
     color: #004860;
     font-weight: bold;
-    padding: 4% 0% 2% 0%;
 }
 
 .header2 {
     font-family: "Oswald";
-    font-size: 2.6em;
+    font-size: 3em;
     color: #004860;
     font-weight: bold;
-    padding: 8% 0% 2% 0%;
 }
 
 .header3 {
     font-family: "Oswald";
     font-size: 2em;
+    color: #004860;
+    font-weight: bold;
+}
+
+.subheader {
+    font-family: "Oswald";
+    font-size: 2em;
     color: #807670;
 }
 
-.header4 {
+.date {
     font-family: "Oswald";
     font-size: 1.2em;
     color: #807670;
 }
 
-.header5 {
+.role {
     font-family: "Oswald";
     font-size: 1.6em;
     color: #403630;
@@ -104,43 +106,46 @@ a {
 </head>
 <body>
     <div class="page">
-        <div class="left">
+        <div class="side">
             <div class="section">
                 <div><img src="jens.png" width="80%", height="80%" class="profile"/></div>
             </div>
             <div class="section">
-                <div class="header2">CONTACT</div>
+                <div class="header3">CONTACT</div>
             </div>
             <div class="section">
                 <div class="regular">Phone: +46 72 52 98 351</div>
                 <div class="regular">Email: <a href="mailto:jens.nyberg@gmail.com">jens.nyberg@gmail.com</a></div>
             </div>
             <div class="section">
-                <div class="header2">SKILLS</div>
-                <div class="regular">C, Bash, Python, JS</div>
-                <div class="regular">... and a whole bunch more.</div>
-                <div class="regular">Linux, embedded</div>
-                <div class="regular">... and a lot more.</div>
+                <div class="header3">SKILLS</div>
             </div>
             <div class="section">
-                <div class="header2">LANGUAGES</div>
+                <div class="regular">Probably fluent in 20+ programming languages ranging from low-level languages like C &amp; ASM, scripting languages like Bash, Tcl &amp; Python, web tech like HTML, JavaScript &amp; SQL and a bunch more.</div>
+            </div>
+            <div class="section">
+                <div class="regular">I mostly work on Linux using vim as my editor.</div>
+            </div>
+            <div class="section">
+                <div class="header3">LANGUAGES</div>
+            </div>
+            <div class="section">
                 <div class="regular">Swedish (native)</div>
                 <div class="regular">English (fluent)</div>
             </div>
             <div class="section">
-                <div class="header2">SOCIAL</div>
+                <div class="header3">SOCIAL</div>
             </div>
-             <div class="section">
+            <div class="section">
                 <div class="regular"><a href="https://www.linkedin.com/in/jens-nyberg/">LinkedIn</a></div>
                 <div class="regular"><a href="https://github.com/jezze/">Github</a></div>
             </div>
- 
         </div>
         <div class="mid"></div>
-        <div class="right">
+        <div class="main">
             <div class="section">
                 <div class="header1">JENS NYBERG</div>
-                <div class="header3">Software Engineer / System Architect / Consultant</div>
+                <div class="subheader">Embedded Engineer / Software Developer / System Architect</div>
             </div>
             <div class="section">
                 <div class="line"></div>
@@ -158,64 +163,64 @@ a {
                 <div class="header2">WORK EXPERIENCE</div>
             </div>
             <div class="section">
-                <div class="header4">Feb 2024 - Present</div>
-                <div class="header5">SOFTWARE ENGINEER</div>
+                <div class="date">Feb 2024 - Present</div>
+                <div class="role">LEAD SOFTWARE ENGINEER</div>
                 <div class="regular">Unibap Space Solutions - Uppsala, Sweden</div>
             </div>
             <div class="section">
                 <div class="regular">Unibap builds computers for low-earth orbit satellites doing earth observations. I am the lead developer on the Linux-based operating system that runs on these computers.</div>
             </div>
             <div class="section">
-                <div class="header4">Mar 2023 - Feb 2024</div>
-                <div class="header5">SENIOR SOFTWARE ENGINEER</div>
+                <div class="date">Mar 2023 - Feb 2024</div>
+                <div class="role">SENIOR SOFTWARE ENGINEER</div>
                 <div class="regular">Qualcomm - Stockholm, Sweden</div>
             </div>
             <div class="section">
                 <div class="regular">Qualcomm bought Arriver. Continued work in the Computer Vision area.</div>
             </div>
             <div class="section">
-                <div class="header4">Apr 2021 - Mar 2023</div>
-                <div class="header5">SOFTWARE DEVELOPER</div>
+                <div class="date">Apr 2021 - Mar 2023</div>
+                <div class="role">COMPUTER VISION ENGINEER</div>
                 <div class="regular">Arriver - Stockholm, Sweden</div>
             </div>
             <div class="section">
-                <div class="regular">Continued work in the automotive industry. The LiDAR system got canceled because the customer realized it would be too expensive. I was the only consultant they kept and they moved me over to the Computer Vision department where I worked a lot on the build system and built tools to help evaluate image detection models.</div>
+                <div class="regular">Continued work in the automotive industry. The LiDAR system got canceled because the customer realized it would be too expensive. I was the only consultant they kept and they moved me over to the Computer Vision department where I worked a lot on the build system and built tools to help evaluate object detection models.</div>
             </div>
             <div class="section">
-                <div class="header4">Apr 2020 - Mar 2021</div>
-                <div class="header5">SOFTWARE DEVELOPER</div>
+                <div class="date">Apr 2020 - Mar 2021</div>
+                <div class="role">EMBEDDED ENGINEER</div>
                 <div class="regular">Veoneer - Stockholm, Sweden</div>
             </div>
             <div class="section">
                 <div class="regular">Worked in the automotive industry. Developed the RTOS-based operating system that ran inside their LiDAR system intended for ADAS (Advanced Driver Assistance System). The company later forked it's software division into what would become Arriver.</div>
             </div>
             <div class="section">
-                <div class="header4">Nov 2016 - Mar 2020</div>
-                <div class="header5">TECHNOLOGY AREA SPECIALIST - OS &amp; VIRTUALIZATION</div>
+                <div class="date">Nov 2016 - Mar 2020</div>
+                <div class="role">TECHNOLOGY AREA SPECIALIST - OS &amp; VIRTUALIZATION</div>
                 <div class="regular">Ericsson - Stockholm, Sweden</div>
             </div>
             <div class="section">
                 <div class="regular">Worked as a prototyper. Among other things I built a zero-config operating system that would run telecom application out of the box while still being incredibly easy to maintain. It was showcased at MWC Barcelona.</div>
             </div>
             <div class="section">
-                <div class="header4">May 2012 - Oct 2016</div>
-                <div class="header5">LINUX DEVELOPER</div>
+                <div class="date">May 2012 - Oct 2016</div>
+                <div class="role">LINUX DEVELOPER</div>
                 <div class="regular">Ericsson - Stockholm, Sweden</div>
             </div>
             <div class="section">
                 <div class="regular">Worked on improving LOTC (Linux on Telecom Clusters). Also maintained various firmware.</div>
             </div>
             <div class="section">
-                <div class="header4">Aug 2010 - Feb 2011</div>
-                <div class="header5">SOFTWARE DEVELOPER</div>
+                <div class="date">Aug 2010 - Feb 2011</div>
+                <div class="role">BACKEND DEVELOPER</div>
                 <div class="regular">Pingdom - Vasteras, Sweden</div>
             </div>
             <div class="section">
                 <div class="regular">Worked on the backend for their uptime monitoring tools. Worked a lot on improving database queries.</div>
             </div>
             <div class="section">
-                <div class="header4">2007 - 2010</div>
-                <div class="header5">SOFTWARE DEVELOPER</div>
+                <div class="date">2007 - 2010</div>
+                <div class="role">FULL-STACK DEVELOPER</div>
                 <div class="regular">Trippus Event Solutions - Uppsala, Sweden</div>
             </div>
             <div class="section">
@@ -225,15 +230,35 @@ a {
                 <div class="header2">EDUCATION</div>
             </div>
             <div class="section">
-                <div class="header4">2003 - 2007</div>
-                <div class="header5">MASTER OF SCIENCE IN COMPUTER SCIENCE</div>
+                <div class="date">2003 - 2006</div>
+                <div class="role">MASTER OF SCIENCE IN COMPUTER SCIENCE</div>
                 <div class="regular">Uppsala University - Uppsala, Sweden</div>
             </div>
             <div class="section">
                 <div class="regular">Studied for almost 3 years. I learned a lot but at the same time I wanted to get a job so I never graduated.</div>
             </div>
             <div class="section">
-                <div class="header2">PROJECTS</div>
+                <div class="header2">SIDE PROJECTS</div>
+            </div>
+            <div class="section">
+                <div class="role">FUDGE OS</div>
+                <div class="regular">Link: <a href="https://github.com/jezze/fudge">Github</a></div>
+            </div>
+            <div class="section">
+                <div class="regular">An advanced hybrid operating system I wrote from scratch. It focuses on lock-free concurrency by utilizing the Actor model, basically everything communicates by messages.</div>
+            </div>
+            <div class="section">
+                <div class="role">BERK</div>
+                <div class="regular">Link: <a href="https://github.com/jezze/berk">Github</a></div>
+            </div>
+            <div class="section">
+                <div class="regular">A versatile job dispatcher. You send job requests to a bunch of machines and they report back the progress. A great alternative to tools like Jenkins.</div>
+            </div>
+            <div class="section">
+                <div class="role">OTHER</div>
+            </div>
+            <div class="section">
+                <div class="regular">Contributed code to both the <a href="https://dolphin-emu.org/">Dolphin</a> emulator and in the <a href="https://suckless.org/">Suckless</a> community.</div>
             </div>
         </div>
     </div>
